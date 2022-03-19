@@ -1,0 +1,82 @@
+body {
+  background-image: url("/src/images/unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+h1 {
+  color: blanchedalmond;
+  margin-top: 45px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+
+.main h1 {
+  color: azure;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.main .search {
+  border: solid;
+  border-color: orangered;
+  border-radius: 5px;
+  height: 25px;
+  width: 200px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 20px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.main button {
+  background-color: #604ffc;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  width: 120px;
+  height: 25px;
+  font-family: 'Patrick Hand', cursive;
+  font-size: large;
+}
+
+.main button:hover {
+  background-color: aliceblue;
+  color: orangered;
+  border: solid;
+  border-color: orangered;
+}
+
+.main .output {
+  color: azure;
+  font-size: larger;
+  margin-bottom: 2px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.main p {
+  margin-top: 2px;
+  color: azure;
+  font-family: 'Patrick Hand', cursive;
+}
+/*# sourceMappingURL=main.css.map */

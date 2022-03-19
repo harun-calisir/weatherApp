@@ -1,0 +1,64 @@
+body {
+    background-image: url("/src/images/unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+h1 {
+    color: blanchedalmond;
+    margin-top: 45px;
+}
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    h1 {
+        color: azure;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .search {
+        border: solid;
+        border-color: orangered;
+        border-radius: 5px;
+        height: 25px;
+        width: 200px;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        text-align: center;
+        font-size: larger;
+        margin-bottom: 20px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    button {
+        background-color: rgb(96, 79, 252);
+        color: aliceblue;
+        border: none;
+        border-radius: 10px;
+        width: 120px;
+        height: 25px;
+        font-family: 'Patrick Hand', cursive;
+        font-size: large;
+    }
+    button:hover {
+        background-color: aliceblue;
+        color: orangered;
+        border: solid;
+        border-color: orangered;
+    }
+    .output {
+        color: azure;
+        font-size: larger;
+        margin-bottom: 2px;
+        font-family: 'Patrick Hand', cursive;
+    }
+    p {
+        margin-top: 2px;
+        color: azure;
+        font-family: 'Patrick Hand', cursive;
+    }
+    
+}
